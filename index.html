@@ -115,21 +115,92 @@
 <div class="caseSection">
     <h1>PROTOTYPING</h1>    
     <p class="caseCopy">Eu secunda metus earum, eu gordius w mortem typi gratnlor arduas invidii rem per gratitudinis, pactum ii cras aut purus te ullo qui regressum fuga arcu publica cum nisibiliter. Sem sanguine id seacula est sodales odit ea-est-me quocumque leo vivamus dui typi dicta atque civibus.</p>    
-    <div class="row protoCards">
-        <!--Bootstrap card component 1-->
-        <div class="card" style="width: 18rem;">
-            <img src="images/nrrc-home-screen.png" class="card-img-top" alt="home screen">            
-        </div>  
-        <!--Bootstrap card component 2-->
-        <div class="card" style="width: 18rem;">
-            <img src="images/nrrc-resources.png" class="card-img-top" alt="resources">            
-        </div>    
-         <!--Bootstrap card component 3-->
-         <div class="card" style="width: 18rem;">
-            <img src="images/nrrc-block-grants.png" class="card-img-top" alt="block grants">            
-        </div>  
-        </div>  
-    </div>
+    
+    <!--Bootstrap accordion w/ nested card components -->
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Wireframes
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="row protoCards">
+                <!--Bootstrap card component 1-->
+                <div class="card" style="width: 18rem;">
+                    <img src="images/nrrc-home-screen.png" class="card-img-top" alt="home screen">            
+                </div>  
+                <!--Bootstrap card component 2-->
+                <div class="card" style="width: 18rem;">
+                    <img src="images/nrrc-resources.png" class="card-img-top" alt="resources">            
+                </div>    
+                 <!--Bootstrap card component 3-->
+                 <div class="card" style="width: 18rem;">
+                    <img src="images/nrrc-block-grants.png" class="card-img-top" alt="block grants">            
+                </div>  
+            </div>  
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Low-Fi Prototype
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="row protoCards">
+                <!--Bootstrap card component 1-->
+                <div class="card" style="width: 18rem;">
+                    <img src="images/Home Screen.png" class="card-img-top" alt="home screen">            
+                </div>  
+                <!--Bootstrap card component 2-->
+                <div class="card" style="width: 18rem;">
+                    <img src="images/Homeowner Resources.png" class="card-img-top" alt="resources">            
+                </div>    
+                 <!--Bootstrap card component 3-->
+                 <div class="card" style="width: 18rem;">
+                    <img src="images/Block Club Grants.png" class="card-img-top" alt="block grants">            
+                </div>  
+            </div>  
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Hi-Fi Prototype
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="row protoCards">
+                <!--Bootstrap card component 1-->
+                <div class="card" style="width: 18rem;">
+                    <img src="images/nrrc-home-screen.png" class="card-img-top" alt="home screen">            
+                </div>  
+                <!--Bootstrap card component 2-->
+                <div class="card" style="width: 18rem;">
+                    <img src="images/nrrc-resources.png" class="card-img-top" alt="resources">            
+                </div>    
+                 <!--Bootstrap card component 3-->
+                 <div class="card" style="width: 18rem;">
+                    <img src="images/nrrc-block-grants.png" class="card-img-top" alt="block grants">            
+                </div>  
+            </div>  
+          </div>
+        </div>
+      </div>    
+       
+
+<div class="caseSectionDark">
+    <h1>INTERACTIVE</h1>    
+
+
 </div>
 
 

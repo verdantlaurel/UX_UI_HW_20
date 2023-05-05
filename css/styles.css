@@ -112,12 +112,21 @@ body {
     flex-wrap: wrap;
     margin-right: 15px;
     margin-left: 15px;
+    padding: 20px;
 }
 
 .caseSection {
     padding-top: 3rem;
+    padding-bottom: 5rem;
     padding-left: 10rem;
     padding-right: 10rem;
+}
+
+.caseSectionDark {
+    padding-top: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: #2E2E2E;
 }
 
 .caseCopy {
@@ -142,6 +151,11 @@ body {
     position: relative;
     margin: auto;
     width: 100%;
+    border-radius: 1.25rem;
+}
+
+.card img{
+    border-radius: 1.25rem;
 }
 
 .card-title {    
@@ -163,4 +177,15 @@ body {
     font-weight: bold;
 }
 
+.accordion {
+    padding-bottom: 100px;
+}
 
+.btn-link {
+    color: rgb(0,0,0);
+}
+
+.btn-link:hover {
+    color:rgb(156, 29, 129);
+    font-weight: bold;
+}
