@@ -60,7 +60,7 @@ body {
 }
 
 .navbar-logo img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05);    
 }
 
 .nav-link {    
@@ -129,7 +129,7 @@ body {
 
 .caseSection {
     padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     padding-left: 10rem;
     padding-right: 10rem;
 }
