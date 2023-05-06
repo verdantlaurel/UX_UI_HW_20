@@ -8,6 +8,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* NAVIGATION */
+
 .logo {
     align-items: left;   
 }
@@ -72,6 +74,9 @@ body {
       font-weight: bold;
 }
 
+
+/* JUMBOTRON */
+
 .jumbotron {
     background-color: #E7E7E7;
     background-image: url(../images/DSC03662.jpg);
@@ -115,6 +120,9 @@ body {
     padding: 20px;
 }
 
+
+/* CARDS */
+
 .caseSection {
     padding-top: 3rem;
     padding-bottom: 5rem;
@@ -124,13 +132,10 @@ body {
 
 .caseSectionDark {
     padding-top: 3rem;
+    padding-bottom: 5rem;
     padding-left: 10rem;
     padding-right: 10rem;
     background-color: #2E2E2E;
-}
-
-.caseCopy {
-    padding: 20px;
 }
 
 .cardContainer {
@@ -154,8 +159,31 @@ body {
     border-radius: 1.25rem;
 }
 
+
 .card img{
     border-radius: 1.25rem;
+}
+
+.accordion {
+    padding-bottom: 100px;    
+    border-radius: 1.25rem;
+}
+
+.cardCollapse {
+    background-color: #E7E7E7;
+}
+
+
+
+/* TYPOGRAPHY */
+
+.caseCopy {
+    padding: 20px;
+}
+
+.caseCopyLight {
+    color: #E7E7E7;
+    padding: 20px;
 }
 
 .card-title {    
@@ -177,15 +205,69 @@ body {
     font-weight: bold;
 }
 
-.accordion {
-    padding-bottom: 100px;
-}
-
 .btn-link {
-    color: rgb(0,0,0);
+    color: #2E2E2E;
 }
 
 .btn-link:hover {
     color:rgb(156, 29, 129);
     font-weight: bold;
 }
+
+
+.light {
+    color: #E7E7E7;
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;  
+    background-color: #222222;
+    color: #EEEEEE;
+    width: 100%;
+    height: 200px;
+    font-size: 16px;  
+  }
+  
+  #contact {  
+    color: #E7E7E7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-align: right;
+    vertical-align: top;  
+    margin: 15px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold; /* KEEP BOLD OR REGULAR WEIGHT? */
+  } 
+  
+    
+  .email {  
+    text-decoration: none;
+    align-self: right;
+    font-family: 'Montserrat', sans-serif;  
+    color: #E7E7E7;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  
+  .email:hover {
+    color: #E7E7E7;
+    text-decoration: underline;  
+  }
+  
+  #logo img {
+    max-height: 30px;
+    padding: 25px 20px 20px 10px;  
+    float: right;
+  }
+  
+  #logo img:hover {
+    transform: scale(1.25);
+  }
+  
